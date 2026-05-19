@@ -5,7 +5,7 @@ O repositório contará com um index introdutório, com informações cruciais a
 As páginas detalhadas serão acerca de temas específicos da biografia, contemplando arquivos de áudio, imagens, formulário e interações afim de enriquecer o contato do usuário com a vida de Farrokh Bulsara.
 
  Index  - Introdução à todas as outras páginas; com informações cruciais e importantes que levam a outras páginas
- Página 1 - Infância e Juventude de Farrokh Bulsara
+<p> Página 1 - Infância e Juventude de Farrokh Bulsara </p> 
  Página 2 - Formação de carreira e anos iniciais de Queen
  Página 3 - O auge artístico
  Página 4 - Discografia 
