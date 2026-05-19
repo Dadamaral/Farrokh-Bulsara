@@ -6,8 +6,8 @@ As páginas detalhadas serão acerca de temas específicos da biografia, contemp
 
  Index  - Introdução à todas as outras páginas; com informações cruciais e importantes que levam a outras páginas
 <p> Página 1 - Infância e Juventude de Farrokh Bulsara </p> 
- Página 2 - Formação de carreira e anos iniciais de Queen
- Página 3 - O auge artístico
- Página 4 - Discografia 
- Página 5 - Vida pessoal
- Página 6 - Anos finais
+<p> Página 2 - Formação de carreira e anos iniciais de Queen  </p> 
+ <p> Página 3 - O auge artístico  </p> 
+  <p> Página 4 - Discografia </p> 
+  <p>  Página 5 - Vida pessoal  </p> 
+  <p>  Página 6 - Anos finais </p>
