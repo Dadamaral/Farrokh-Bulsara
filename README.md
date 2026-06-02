@@ -11,3 +11,9 @@ As páginas detalhadas serão acerca de temas específicos da biografia, contemp
   <p> Página 4 - Discografia </p> 
   <p>  Página 5 - Vida pessoal  </p> 
   <p>  Página 6 - Anos finais </p>
+
+<p> Página 1 - Home</p>
+<p> Página 2 - Sobre</p>
+<p> Página 3 - Queen</p>
+<p> Página 4 - Shows</p>
+<p> Página 5 - Fotos</p>
