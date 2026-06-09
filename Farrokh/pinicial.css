@@ -1,5 +1,5 @@
 body {
-     background-color: black;
+     background-image: url(imgs/fundo2.png);
     background-size: cover; /* Garante que o fundo cubra a tela toda */
     background-position: center;
 /* ========================================================
@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-wrap: wrap;         /* Se tiver muitos álbuns, eles quebram para a linha de baixo */
     justify-content: center; /* Centraliza os quadradinhos dentro do espaço */
-    gap: 60px;               /* Espaçamento entre um álbum e outro */
+    gap: 30px;               /* Espaçamento entre um álbum e outro */
 }
 
 /* O cartão do álbum (que é o link inteiro clicável) */
@@ -34,8 +34,8 @@ body {
 
 /* O quadradinho da foto */
 .cartao-album .capa-foto {
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-color: #222;  /* Fundo cinza escuro provisório (caso a imagem suma) */
     border: 2px solid #fff;  /* Borda branca clássica de vinil/foto */
     border-radius: 8px;      /* Deixa as pontas levemente arredondadas */
@@ -50,32 +50,3 @@ body {
     object-fit: cover;       /* Corta e ajusta a imagem automaticamente dentro do quadrado */
 }
 }
-.bg-fullscreen {
-            /* Caminho da sua imagem */
-            background-image: url(imgs/BRYAN.png);
-
-            /* Define a altura como 100% da tela visível */
-            height: 100vh; 
-
-            /* Centraliza a imagem na tela */
-            background-position: center;
-
-            /* Impede que a imagem fique se repetindo */
-            background-repeat: no-repeat;
-
-            /* Força a imagem a cobrir todo o espaço, cortando as sobras sem distorcer */
-            background-size: cover;
-
-            /* Deixa a imagem fixa no fundo. Isso ajuda a segurar o comportamento no zoom */
-             margin-left: 3%;
-            margin-right: 3%;
-            
-        }
-        .organi{
-           
-            background-color: hsl(0, 0%, 0%);
-        }
-        .divisor{
-            background-color: hsl(275, 96%, 10%);
-            height: 30px;
-        }
