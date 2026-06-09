@@ -7,15 +7,16 @@ body {
 
 /* O container principal da Navbar (Centralizado) */
 .navbar {
-    background-color: #ffffff;
+    background-color: hwb(0 0% 100%);
     display: flex;
     justify-content: center; /* Centraliza os itens horizontalmente */
     padding: 10px 0;
+    
 }
 
 /* Os links que estão DENTRO da classe .navbar */
 .navbar a {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     text-decoration: none; /* Remove o sublinhado dos links */
     padding: 10px 20px;
     font-size: 16px;
@@ -25,7 +26,10 @@ body {
 
 /* Efeito ao passar o mouse nos links da .navbar */
 .navbar a:hover {
-    background-color: #ffffff;
+    background-color: hsl(0, 33%, 81%);
     border-radius: 4px;
 }
 }
+
+
+
