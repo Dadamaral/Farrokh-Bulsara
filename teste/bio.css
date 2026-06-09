@@ -1,0 +1,52 @@
+body{
+    background-image: url(imgs/fundo3.png);
+    background-position: center;
+    /* Configurações para travar o fundo */
+    background-attachment: fixed;  /* ESSA LINHA TRAVA O FUNDO NO LUGAR */
+    background-size: cover;        /* Mantém a imagem cobrindo a tela toda sem distorcer */
+    background-position: center bottom; /* Mantém a imagem do Freddie na base da tela */
+    background-repeat: no-repeat;  /* Evita que a imagem comece a se repetir para baixo */
+    
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+   /* Container principal - define o espaço horizontal total disponível no miolo */
+.container-biografia {
+    width: 60%;          /* Ocupa 60% da largura da tela para não cobrir os Freddies */
+    margin: 140px auto;   /* 140px empurra para baixo da linha branca (igual você fez na home) */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Lado Esquerdo - Ocupa exatamente 70% da área útil */
+.coluna-texto {
+    width: 68%;          
+    color: white;
+}
+
+/* Lado Direito - Ocupa exatamente 30% da área útil e serve de caixa para as imagens */
+.coluna-recortes {
+    width: 28%;          
+    color: white;
+    border-left: 2px solid #ffffff; /* A divisória vertical */
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column; /* Faz os blocos/imagens dentro dela ficarem um abaixo do outro */
+    gap: 20px; /* Espaço entre as imagens que você colocar aqui */
+}
+
+/* Estilização básica dos textos */
+.container-biografia h1, 
+.container-biografia h2 {
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-biografia p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
