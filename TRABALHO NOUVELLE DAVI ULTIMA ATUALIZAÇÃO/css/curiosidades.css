@@ -1,0 +1,55 @@
+body{
+    background-image: url(../imgs/fundobio2.png)
+    background-position: center;
+    background-attachment: fixed;  
+    background-size: cover;       
+    background-position: center bottom; 
+    background-repeat: no-repeat;  
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container-curiosidades {
+    width: 75%;         
+    margin: 140px auto;  
+    justify-content: space-between;
+    align-items: flex-start;
+
+    h1{
+        color: white;
+        margin-top: -35px;
+        font-size: 56px;
+        font-family: Syne;
+    }
+    p{
+        color: white;
+        margin-bottom: 50px;
+        width: 80%;
+        font-size: 18px;
+        font-family: Inter;
+
+    }
+}
+.card{
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(83, 83, 83);
+    border: 3px solid #f3c910;
+    border-radius: 12px;
+    padding: 15px;
+    width: 700px; /* Largura fixa para cada caixinha */
+    h3{
+        color: white;
+        font-size: 22px;
+        font-family: Syne;
+    }
+    p{
+        color: white;
+        font-family: Inter;
+        font-size: 16px;
+    }
+    img{
+        border-radius: 8px;       }
+}
