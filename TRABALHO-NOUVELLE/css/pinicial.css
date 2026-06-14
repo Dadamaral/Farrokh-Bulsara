@@ -2,6 +2,9 @@ body {
      background-color: black;
     background-size: cover; /* Garante que o fundo cubra a tela toda */
     background-position: center;
+    h1{
+        color: white;
+    }
 }
 
 /* Container flexbox que fica exatamente no meio dos dois Freddies */
@@ -80,6 +83,47 @@ body {
             background-color: hsl(0, 0%, 0%);
         }
         .divisor{
-            background-color: #be8200;
+            background-color: #b1afb4;
             height: 20px;
+            
         }
+.title-1{
+     max-width: 80%; 
+    margin: 20px auto;
+
+    h1{
+        font-size: 50px;
+    }
+    border-bottom: 1px solid #fff
+
+}
+.view{
+    display: flex;
+    justify-content: center;
+    
+}
+.view{
+    a{
+         text-decoration: none;
+    }
+}
+.more {
+   
+    color: #fff;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    border-radius: 8px;
+    border: 2px solid #fff; 
+   
+   
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+.more:hover {
+    background-color: #fff;
+    color: #000; 
+   
+}   
