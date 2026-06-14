@@ -1,11 +1,11 @@
 body{
-    background-image: url(../imgs/fundo3.png);
+    background-image: url(../imgs/fundobio2.png);
     background-position: center;
     /* Configurações para travar o fundo */
-    background-attachment: fixed;  /* ESSA LINHA TRAVA O FUNDO NO LUGAR */
-    background-size: cover;        /* Mantém a imagem cobrindo a tela toda sem distorcer */
-    background-position: center bottom; /* Mantém a imagem do Freddie na base da tela */
-    background-repeat: no-repeat;  /* Evita que a imagem comece a se repetir para baixo */
+    background-attachment: fixed;  
+    background-size: cover;        
+    background-position: center bottom; 
+    background-repeat: no-repeat;  
     
     margin: 0;
     padding: 0;
@@ -15,31 +15,33 @@ body{
 
    /* Container principal - define o espaço horizontal total disponível no miolo */
 .container-biografia {
-    width: 60%;          /* Ocupa 60% da largura da tela para não cobrir os Freddies */
-    margin: 140px auto;   /* 140px empurra para baixo da linha branca (igual você fez na home) */
+    width: 60%;          /* ocupa 60% da tela pra ficar centralizao */
+    margin: 140px auto;   /* 140px empurra para baixo da linha branca (igual fiz na home) */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-/* Lado Esquerdo - Ocupa exatamente 70% da área útil */
+
 .coluna-texto {
     width: 68%;          
-    color: white;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px #000000; /* largura e cor do contorno que coloquei */
+    paint-order: stroke fill;          /* linha que garante que o preenchimento fique por cima do contorno */
 }
 
 /* Lado Direito - Ocupa exatamente 30% da área útil e serve de caixa para as imagens */
 .coluna-recortes {
     width: 28%;          
     color: white;
-    border-left: 2px solid #ffffff; /* A divisória vertical */
+    border-left: 2px solid #ffffff; /* a divisória vertical entre as duas colunas */
     padding-left: 20px;
     display: flex;
-    flex-direction: column; /* Faz os blocos/imagens dentro dela ficarem um abaixo do outro */
-    gap: 20px; /* Espaço entre as imagens que você colocar aqui */
+    flex-direction: column; /* faz as imagens ficaram uma embaixo da outra */
+    gap: 20px; /* margem entre as imagens de jornais */
 }
 
-/* Estilização básica dos textos */
+
 .container-biografia h1, 
 .container-biografia h2 {
     margin-top: 0;
