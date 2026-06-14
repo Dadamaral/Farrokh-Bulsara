@@ -25,19 +25,19 @@ body {
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    /* 3. IMPORTANTE: O cartão precisa ter a mesma largura da foto (320px) */
+   
     width: 400px;            
     transition: transform 0.2s;
     display: inline-block;   /* Garante que o link se comporte bem como bloco */
 }
 
-/* Efeito sutil de aumentar de tamanho ao passar o mouse no álbum */
+
 .cartao-album:hover {
     transform: scale(1.05);
 }
 
-/* O quadradinho da foto */
-.cartao-album .capa-foto {
+
+ .capa-foto {
     width: 400px;
     height: 400px;
     background-color: #222;  
@@ -54,23 +54,23 @@ body {
     object-fit: cover;       
 }
 
-.bg-fullscreen {
-            /* Caminho da sua imagem */
+.fullscreen {
+           
             background-image: url(../imgs/BRYAN.png);
 
-            /* Define a altura como 100% da tela visível */
+           
             height: 100vh; 
 
-            /* Centraliza a imagem na tela */
+           
             background-position: center;
 
-            /* Impede que a imagem fique se repetindo */
+          
             background-repeat: no-repeat;
 
             /* Força a imagem a cobrir todo o espaço, cortando as sobras sem distorcer */
             background-size: cover;
 
-            /* Deixa a imagem fixa no fundo. Isso ajuda a segurar o comportamento no zoom */
+           
              margin-left: 3%;
             margin-right: 3%;
             
@@ -80,6 +80,6 @@ body {
             background-color: hsl(0, 0%, 0%);
         }
         .divisor{
-            background-color: hsl(275, 96%, 10%);
-            height: 30px;
+            background-color: #be8200;
+            height: 20px;
         }

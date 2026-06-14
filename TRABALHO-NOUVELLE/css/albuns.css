@@ -1,3 +1,6 @@
+ .tudo{
+    background-color: #E5E5E5;
+ }
  .album-section {
             display: flex;
             justify-content: center;
@@ -6,11 +9,11 @@
             width: 100%;
             background: linear-gradient(to bottom, #4B0082 50%, #E5E5E5 50%);
             
-            /* ESSENCIAL: Permite que o título se posicione em relação a esta seção */
+           
             position: relative; 
         }
 
-        /* O TÍTULO AGORA FLUTUA */
+       
         .album-title {
             position: absolute;
             
@@ -29,7 +32,7 @@
             letter-spacing: 2px;
         }
 
-        /* O wrapper da imagem continua intocado no centro perfeito */
+       
         .album-wrapper {
             position: relative;
             max-width: 300px; 
@@ -41,6 +44,68 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); 
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.904); 
             border-radius: 4px;
         }
+
+.navbara{
+    background-color:  #4c0082;
+    display: flex;
+    justify-content: center;
+    
+    gap: 50px; 
+    height: 30px;
+    padding: 20px 0;
+    position: sticky; /* Faz a barra "grudar" no topo */
+    top: 0;           /* Define que ela vai grudar exatamente no ponto zero (topo) */
+    z-index: 1000;  
+}
+
+.nav-link {
+    color: #ffffff; 
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 8px 0;
+    transition: color 0.3s ease-in-out;
+    /* 🌟 OBRIGATÓRIO: Sem isso, a linha da animação fica perdida na tela */
+    position: relative; 
+}
+.nav-link:hover {
+  
+     color: #ffe699; 
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;               
+    height: 2px;            
+    bottom: 0;              
+    left: 50%;              
+    background-color: #F2A900; 
+    transform: translateX(-50%); 
+    transition: width 0.3s ease-in-out; 
+    
+}
+
+.nav-link:hover::after {
+    width: 100%; 
+   
+}
+.coleção{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.musicas{
+    background-color: #ffe699;
+    width: 70%;
+    padding: 20px;
+
+}
+.indivi{
+    border-bottom: solid 1px black;
+}
+        

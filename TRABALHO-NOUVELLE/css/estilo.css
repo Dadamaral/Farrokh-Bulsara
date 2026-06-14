@@ -2,22 +2,20 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     min-height: 100vh;
-    background-color: #000; /* Adicionei fundo preto para você conseguir ver o texto branco */
-} /* <-- Faltava fechar a chave do body aqui! */
+    background-color: #000000;
+} 
 
-/* O container principal da Navbar (Centralizado) */
 .navbar {
-    background-color: lab(0% 0 0 / 0.63);
+    background-color: #000000a1;
     display: flex;
-    justify-content: center; /* Centraliza o bloco de links */
+    justify-content: center;
     
-    /* 🌟 SOLUÇÃO: Cria um espaço de 30px entre cada link */
     gap: 50px; 
     height: 30px;
-    padding: 20px 0; /* Um espacinho em cima e embaixo da barra */
+    padding: 20px 0;
     position: sticky; /* Faz a barra "grudar" no topo */
     top: 0;           /* Define que ela vai grudar exatamente no ponto zero (topo) */
-    z-index: 1000;    /* Garante que ela vai ficar por COMA de qualquer outro elemento do site */
+    z-index: 1000;  
 }
 
 .nav-link {
