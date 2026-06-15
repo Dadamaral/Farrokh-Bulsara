@@ -1,6 +1,6 @@
- body{  background-image: url(../imgs/fundob.png);
+ body{  
     background-position: center;
-    /* Configurações para travar o fundo */
+   
     background-attachment: fixed;  
     background-size: cover;        
     background-position: center bottom; 
@@ -8,31 +8,58 @@
     
     .container-albuns {
     
-    /* 1. Aumentamos o limite para dar espaço para as fotos de 320px */
+    background-color: #222222;
     max-width: 80%; 
-    margin: 20px auto;       /* O 'auto' centraliza o container na tela */
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;   
+    span{
+        font-size: 20px ;
+        
+    }         
+    font-family: Syne;  
+   
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.play{
+    
     display: flex;
     flex-wrap: wrap;        
-    justify-content: center; 
-    padding: 20px;
-    /* 2. Diminuímos o gap. 200px era muito grande e expulsava as fotos da linha */
-    gap: 30px;               
+    justify-content: center;
+     gap: 30px; 
+     padding: 15px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.title-o{
+    font-size: 36px;
+    width: 60%;
+    
+    text-align: center;
+    
+    h1{
+        border-bottom: 1px solid white;
+        
+    }
 }
 
-/* O cartão do álbum (que é o link inteiro clicável) */
 .cartao-album {
     text-decoration: none;
     color: white;            
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    /* 3. IMPORTANTE: O cartão precisa ter a mesma largura da foto (320px) */
-    width: 400px;            
+    width: 320px;            
     transition: transform 0.2s;
-    display: inline-block;   /* Garante que o link se comporte bem como bloco */
+    display: inline-block;  
 }
 
-/* Efeito sutil de aumentar de tamanho ao passar o mouse no álbum */
+
 .cartao-album:hover {
     transform: scale(1.05);
 }
@@ -42,13 +69,13 @@
     width: 320px;
     height: 320px;
     background-color: #222;  
-    border: 2px solid #fff;  
+    border: 2px solid  #141313;  
     border-radius: 8px;      
     margin-bottom: 8px;      
     overflow: hidden;        
 }
 
-/* Ajuste para a imagem preencher o quadradinho perfeitamente */
+
 .cartao-album .capa-foto img {
     width: 100%;
     height: 100%;
