@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #000000;
+} 
+
+.navbar {
+    background-color: #000000a1;
+    display: flex;
+    justify-content: center;
+    
+    gap: 40px; 
+    height: 30px;
+    padding: 20px 0;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;  
+}
+
+.nav-link {
+    color: #ffffff; 
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    transition: color 0.3s ease-in-out;
+    
+    position: relative; 
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    
+    
+   
+}
+.nav-link:hover {
+  
+     
+     color: #ffe699; 
+    transform: scale(1.1);
+     
+}
+.nav-link::after {
+    content: '';                                    
+    position: absolute;
+    width: 0;               
+    height: 2px;            
+    bottom: 0;              
+    left: 50%;              
+    background-color: #F2A900; 
+    transform: translateX(-50%); 
+    transition: width 0.3s ease-in-out; 
+    
+}
+
+.nav-link:hover::after {
+    width: 100%; 
+   
+}
+
+.site-rodape {
+    background-color: #111111;
+    color: #ffffff;           
+    padding: 40px 20px;      
+    font-family: sans-serif; 
+}
+
+.rodape-conteiner {
+    max-width: 1300px;
+    margin: 0 auto;  
+    display: flex;  
+    gap: 50px; 
+    border-bottom:1px solid #fff ;
+}
+.fim{
+    max-width: 1300px;
+    margin: 0 auto;  
+    display: flex;  
+  
+    padding-top: 5px;
+   justify-content: center;
+   p{
+        color: #b3b3b3;      
+        font-size: 12px;
+      
+   }
+}
+.mini-1{
+    
+    padding-right: 10px;
+    
+    
+}
+.mini{
+    padding-left: 10px;
+   
+}
+
+
+
+.coluna {
+    flex: 1; 
+    padding-bottom: 40px;
+    line-height: 1.9;
+    p {
+        color: #b3b3b3;      
+        font-size: 14px;
+        line-height: 1.6;
+        width: 250px;
+    }
+    
+    h1 {
+        font-size: 14px;
+        color: #ffcc00;
+        margin: 5px 0 15px 0;
+    }
+
+    h2 {
+        font-size: 22px;
+        color: #ffffff; 
+        margin: 0;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #ffcc00;
+        margin-bottom: 15px; 
+        margin-top: 0;
+    }
+    ul {
+        list-style: none;          
+        padding: 0;                
+        margin: 0;
+    }
+    ul li {
+        margin-bottom: 10px;
+    }
+    a{
+        color: #ffffff; 
+        text-decoration: none;     
+        transition: color 0.3s ease;
+    }
+    a:hover {
+        color: #ffcc00;
+    }
+    
+}
+.email{
+    
+    input{
+        height: 40px;
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- Barra de Baixo (Copyright e Redes Sociais) --- */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #222222; /* Linha fina divisória */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 13px;
+    color: #888888;
+}
+
+/* Ícones das Redes Sociais Circulares */
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%; /* Faz o círculo perfeito */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #ffffff;
+    color: #000000; /* Inverte as cores ao passar o mouse */
+
+}
+
+
