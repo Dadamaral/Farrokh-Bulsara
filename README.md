@@ -10,4 +10,4 @@ As páginas detalhadas serão acerca de temas específicos da biografia, contemp
 <p> Página 3 - Queen</p>
 <p> Página 4 - Shows</p>
 <p> Página 5 - Fotos</p>
-https://prod.liveshare.vsengsaas.visualstudio.com/join?FCB327F2D80D89F152129C1684446C141CE0
+https://prod.liveshare.vsengsaas.visualstudio.com/join?14B2F292B52FC8513EB9EEA56956DC11086C
