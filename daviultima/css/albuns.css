@@ -8,7 +8,7 @@
             display: flex;
             justify-content: center;
             align-items: center;   
-            height: 100vh;           
+            height: 120vh;           
             width: 100%;
             background: linear-gradient(to bottom, #222 50%, #E5E5E5 50%);
             
@@ -19,17 +19,15 @@
        
         .album-title {
             position: absolute;
-            
-            /* Posiciona o texto na metade superior roxa */
-            top: 15vh; /* Fica a 15% da altura da tela a partir do topo */
-            
-            /* Garante que o texto fique exatamente no centro horizontal */
+            width: 20%;
+            height: 8% ;
+            top: 15vh;
             left: 50%;
             transform: translateX(-50%);
-            
+            border-bottom: 1px solid white;
             color: white;
             font-size: 36px;
-            font-family: sans-serif;
+            font-family: Syne;
             font-weight: bold;
             text-align: center;
             letter-spacing: 2px;
@@ -38,7 +36,7 @@
        
         .album-wrapper {
             position: relative;
-            max-width: 300px; 
+            max-width: 400px; 
             width: 90%;       
             aspect-ratio: 1 / 1; 
         }
@@ -46,9 +44,9 @@
         .album-cover {
             width: 100%;
             height: 100%;
-            object-fit: cover;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.904); 
-            border-radius: 4px;
+            
+            box-shadow: 0 15px 35px #000000e7; 
+            border-radius: 8px;
         }
 
 .navbara{
@@ -59,8 +57,8 @@
     gap: 50px; 
     height: 30px;
     padding: 20px 0;
-    position: sticky; /* Faz a barra "grudar" no topo */
-    top: 0;           /* Define que ela vai grudar exatamente no ponto zero (topo) */
+    position: sticky;
+    top: 0;
     z-index: 1000;  
 }
 
@@ -71,7 +69,6 @@
     font-size: 16px;
     padding: 8px 0;
     transition: color 0.3s ease-in-out;
-    /* 🌟 OBRIGATÓRIO: Sem isso, a linha da animação fica perdida na tela */
     position: relative; 
 }
 .nav-link:hover {
@@ -95,20 +92,103 @@
     width: 100%; 
    
 }
-.coleção{
-    display:flex;
+
+
+.coleção {
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px 20px;
     
 }
-.musicas{
-    background-color: #ffe699;
-    width: 70%;
-    padding: 20px;
 
+.musicas {
+   
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1000px;  
+    padding: 40px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px #00000080; 
 }
-.indivi{
-    border-bottom: solid 1px black;
+
+.titulo-musicas h1 {
+    font-family: Syne; 
+    font-size: 36px;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
-        
+
+.indivi {
+    display: flex;
+    align-items: center; 
+    padding: 18px 0; 
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.numero-faixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #7f8c8d;
+    border-radius: 50%; 
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-right: 20px; 
+    font-family: sans-serif;
+}
+
+.indivi h2 {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #2c3e50;
+    margin: 0; 
+    font-weight: normal;  
+}  
+.back {
+    padding: 30px;
+    display: flex;  
+    justify-content:center; 
+}
+
+
+.botao-voltar {
+    display: inline-flex; 
+    align-items: center; 
+    text-decoration: none; 
+    gap: 15px; 
+    font-family: 'Syne', sans-serif;
+}
+
+
+.circulo-seta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 45px;          
+    height: 45px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    
+    color: #000000; 
+    font-size: 20px;       
+    transition: all 0.3s ease; 
+}
+
+
+.texto-voltar {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.botao-voltar:hover .circulo-seta {
+    background-color: #ffffff;  
+    color: #2c3e50;        
+    transform: translateX(-5px);}
