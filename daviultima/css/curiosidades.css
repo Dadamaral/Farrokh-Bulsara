@@ -34,12 +34,11 @@ body{
 }
 .card{
     margin-bottom: 10px;
-    flex-wrap: wrap;
     background-color: rgb(83, 83, 83);
     border: 3px solid #f3c910;
     border-radius: 12px;
     padding: 15px;
-    width: 700px; /* Largura fixa para cada caixinha */
+    width: 600px;
     h3{
         color: white;
         font-size: 22px;
@@ -48,8 +47,14 @@ body{
     p{
         color: white;
         font-family: Inter;
-        font-size: 16px;
+        font-size: 18px;
     }
     img{
-        border-radius: 8px;       }
+        border-radius: 8px;      
+        width: 70%;
+        margin-left: 15%;
+     }
+    .img2{
+        width: 60%;
+    }
 }
